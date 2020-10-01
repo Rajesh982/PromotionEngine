@@ -1,4 +1,5 @@
-﻿using PromotionEngine.DTO;
+﻿using PromotionEngine.BusinessLogicLayer.Interface;
+using PromotionEngine.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,9 +8,9 @@ using System.Text;
 namespace PromotionEngine.BusinessLogicLayer
 {
    
-    public class BatchPromotionBLL : PromotionEngineBLL
+    public class BatchPromotionBLL : PromotionEngineBLL, IBatchPromotionBLL
     {
-        public double CalculateTotal(OrderDTO order, List<BatchPromotionDTO> promos)
+        public double CalculateTotal(OrderDTO order, List<BatchPromotionDTO> batchPromotionList)
         {
             double total = 0;
             int count = 0;
@@ -20,7 +21,7 @@ namespace PromotionEngine.BusinessLogicLayer
             if(order.Items.Any(x=> x.Price == 0))
                 throw new ArgumentException("Product price should not be zero");
 
-            foreach (var promo in promos)
+            foreach (var promo in batchPromotionList)
             {
                 count = 0;
                 foreach (var item in promo.Codes)
