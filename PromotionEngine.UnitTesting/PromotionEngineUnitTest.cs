@@ -97,7 +97,6 @@ namespace PromotionEngine.UnitTesting
             Assert.Fail();
         }
 
-
         [TestMethod]
         public void ScenarioC_ValidData_ReturnValidNumber()
         {
@@ -144,6 +143,32 @@ namespace PromotionEngine.UnitTesting
             orderSC.Items.Add(new ProductDTO("D") { Id = 10, Code = "D", Name = "D", SKUcode = "D1", Price = 15 });
 
             new BatchPromotionBLL().CalculateTotal(orderSC, batchPromotionList);
+            Assert.Fail();
+        }
+
+        [TestMethod]
+        public void CalculateTotal_ValidData_ReturnValidNumber()
+        {
+            var orderSC = new OrderDTO() { Id = 123, OrderDate = DateTime.Today, Status = OrderStatusDTO.Pending, Items = new List<ProductDTO>() };
+            orderSC.Items.Add(new ProductDTO("A") { Id = 1, Code = "A", Name = "A", SKUcode = "A1", Price = 50 });
+            orderSC.Items.Add(new ProductDTO("A") { Id = 2, Code = "A", Name = "A", SKUcode = "A2", Price = 50 });
+            orderSC.Items.Add(new ProductDTO("A") { Id = 3, Code = "A", Name = "A", SKUcode = "A3", Price = 50 });           
+            
+            var actualValue = new BatchPromotionBLL().CalculateTotal(orderSC, 20 );
+
+            Assert.IsNotNull(actualValue);
+        }
+
+        [ExpectedException(typeof(ArgumentException), "Discount Percentage should not be zero")]
+        [TestMethod]
+        public void CalculateTotal_InValidData_ThrowException()
+        {
+            var orderSC = new OrderDTO() { Id = 123, OrderDate = DateTime.Today, Status = OrderStatusDTO.Pending, Items = new List<ProductDTO>() };
+            orderSC.Items.Add(new ProductDTO("A") { Id = 1, Code = "A", Name = "A", SKUcode = "A1", Price = 50 });
+            orderSC.Items.Add(new ProductDTO("A") { Id = 2, Code = "A", Name = "A", SKUcode = "A2", Price = 50 });
+            orderSC.Items.Add(new ProductDTO("A") { Id = 3, Code = "A", Name = "A", SKUcode = "A3", Price = 50 });
+
+            new BatchPromotionBLL().CalculateTotal(orderSC, 0);
             Assert.Fail();
         }
 

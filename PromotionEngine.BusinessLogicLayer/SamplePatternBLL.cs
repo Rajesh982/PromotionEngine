@@ -6,8 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace PromotionEngine.BusinessLogicLayer
-{
-    
+{    
     public class SamplePatternBLL<T> : ISamplePatternBLL<T> where T : Entity
     {
         private readonly IRepository<T> _repository;

@@ -7,7 +7,7 @@ using System.Text;
 
 namespace PromotionEngine.BusinessLogicLayer
 {
-    public class PromotionEngineBLL : IPromotionEngineBLL
+    public abstract class PromotionEngineBLL : IPromotionEngineBLL
     {
         public double CalculateTotal(OrderDTO order, List<PromotionConfigurationDTO> promotionConfiguration)
         {
@@ -33,6 +33,9 @@ namespace PromotionEngine.BusinessLogicLayer
 
         public double CalculateTotal(OrderDTO order, double discountPercentage)
         {
+            if (discountPercentage == 0)
+                throw new ArgumentException("Discount Percentage should not be zero");
+
             double total = 0;
             foreach (var item in order.Items)
             {
