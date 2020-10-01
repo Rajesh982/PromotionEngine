@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PromotionEngine.DataAccessLayer\PromotionEngine.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\PromotionEngine.DomainEntity\PromotionEngine.DomainEntity.csproj" />
+    <ProjectReference Include="..\PromotionEngine.DTO\PromotionEngine.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

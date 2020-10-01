@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    <PackageReference Include="Unity" Version="5.11.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PromotionEngine.DomainEntity\PromotionEngine.DomainEntity.csproj" />
+  </ItemGroup>
+
+</Project>

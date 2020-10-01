@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IejvL1Q+8ryzREZVuy8CsbowpSfpHVyj0cbl0MAgShsyJ/69oYTPsA7OSaAJ6B0nM434eRZOY0ULbG6VOdaasQ==",
+  "success": true,
+  "projectFilePath": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DomainEntity\\PromotionEngine.DomainEntity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RajeshThirunaukkaras\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\RajeshThirunaukkaras\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

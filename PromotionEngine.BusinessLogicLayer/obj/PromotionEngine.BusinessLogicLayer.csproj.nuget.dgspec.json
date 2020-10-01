@@ -1,0 +1,274 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.BusinessLogicLayer\\PromotionEngine.BusinessLogicLayer.csproj": {}
+  },
+  "projects": {
+    "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.BusinessLogicLayer\\PromotionEngine.BusinessLogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.BusinessLogicLayer\\PromotionEngine.BusinessLogicLayer.csproj",
+        "projectName": "PromotionEngine.BusinessLogicLayer",
+        "projectPath": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.BusinessLogicLayer\\PromotionEngine.BusinessLogicLayer.csproj",
+        "packagesPath": "C:\\Users\\RajeshThirunaukkaras\\.nuget\\packages\\",
+        "outputPath": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.BusinessLogicLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RajeshThirunaukkaras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DataAccessLayer\\PromotionEngine.DataAccessLayer.csproj": {
+                "projectPath": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DataAccessLayer\\PromotionEngine.DataAccessLayer.csproj"
+              },
+              "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DomainEntity\\PromotionEngine.DomainEntity.csproj": {
+                "projectPath": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DomainEntity\\PromotionEngine.DomainEntity.csproj"
+              },
+              "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DTO\\PromotionEngine.DTO.csproj": {
+                "projectPath": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DTO\\PromotionEngine.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DataAccessLayer\\PromotionEngine.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DataAccessLayer\\PromotionEngine.DataAccessLayer.csproj",
+        "projectName": "PromotionEngine.DataAccessLayer",
+        "projectPath": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DataAccessLayer\\PromotionEngine.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\RajeshThirunaukkaras\\.nuget\\packages\\",
+        "outputPath": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RajeshThirunaukkaras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DomainEntity\\PromotionEngine.DomainEntity.csproj": {
+                "projectPath": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DomainEntity\\PromotionEngine.DomainEntity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Unity": {
+              "target": "Package",
+              "version": "[5.11.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DomainEntity\\PromotionEngine.DomainEntity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DomainEntity\\PromotionEngine.DomainEntity.csproj",
+        "projectName": "PromotionEngine.DomainEntity",
+        "projectPath": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DomainEntity\\PromotionEngine.DomainEntity.csproj",
+        "packagesPath": "C:\\Users\\RajeshThirunaukkaras\\.nuget\\packages\\",
+        "outputPath": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DomainEntity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RajeshThirunaukkaras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DTO\\PromotionEngine.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DTO\\PromotionEngine.DTO.csproj",
+        "projectName": "PromotionEngine.DTO",
+        "projectPath": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DTO\\PromotionEngine.DTO.csproj",
+        "packagesPath": "C:\\Users\\RajeshThirunaukkaras\\.nuget\\packages\\",
+        "outputPath": "E:\\Personal\\Development\\CodeTest\\PromotionEngine.ConsoleApp\\PromotionEngine.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RajeshThirunaukkaras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

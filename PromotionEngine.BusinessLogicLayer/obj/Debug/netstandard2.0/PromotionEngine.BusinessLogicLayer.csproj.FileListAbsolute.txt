@@ -1,0 +1,17 @@
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\bin\Debug\netstandard2.0\PromotionEngine.BusinessLogicLayer.deps.json
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\bin\Debug\netstandard2.0\PromotionEngine.BusinessLogicLayer.dll
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\bin\Debug\netstandard2.0\PromotionEngine.BusinessLogicLayer.pdb
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\bin\Debug\netstandard2.0\PromotionEngine.DataAccessLayer.dll
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\bin\Debug\netstandard2.0\PromotionEngine.DomainEntity.dll
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\bin\Debug\netstandard2.0\PromotionEngine.DTO.dll
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\bin\Debug\netstandard2.0\PromotionEngine.DataAccessLayer.pdb
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\bin\Debug\netstandard2.0\PromotionEngine.DataAccessLayer.dll.config
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\bin\Debug\netstandard2.0\PromotionEngine.DomainEntity.pdb
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\bin\Debug\netstandard2.0\PromotionEngine.DTO.pdb
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\obj\Debug\netstandard2.0\PromotionEngine.BusinessLogicLayer.csprojAssemblyReference.cache
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\obj\Debug\netstandard2.0\PromotionEngine.BusinessLogicLayer.AssemblyInfoInputs.cache
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\obj\Debug\netstandard2.0\PromotionEngine.BusinessLogicLayer.AssemblyInfo.cs
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\obj\Debug\netstandard2.0\PromotionEngine.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\obj\Debug\netstandard2.0\PromotionEngine.BusinessLogicLayer.csproj.CopyComplete
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\obj\Debug\netstandard2.0\PromotionEngine.BusinessLogicLayer.dll
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.BusinessLogicLayer\obj\Debug\netstandard2.0\PromotionEngine.BusinessLogicLayer.pdb

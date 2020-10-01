@@ -1,0 +1,9 @@
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DTO\bin\Debug\netstandard2.0\PromotionEngine.DTO.deps.json
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DTO\bin\Debug\netstandard2.0\PromotionEngine.DTO.dll
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DTO\bin\Debug\netstandard2.0\PromotionEngine.DTO.pdb
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DTO\obj\Debug\netstandard2.0\PromotionEngine.DTO.csprojAssemblyReference.cache
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DTO\obj\Debug\netstandard2.0\PromotionEngine.DTO.AssemblyInfoInputs.cache
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DTO\obj\Debug\netstandard2.0\PromotionEngine.DTO.AssemblyInfo.cs
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DTO\obj\Debug\netstandard2.0\PromotionEngine.DTO.csproj.CoreCompileInputs.cache
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DTO\obj\Debug\netstandard2.0\PromotionEngine.DTO.dll
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DTO\obj\Debug\netstandard2.0\PromotionEngine.DTO.pdb

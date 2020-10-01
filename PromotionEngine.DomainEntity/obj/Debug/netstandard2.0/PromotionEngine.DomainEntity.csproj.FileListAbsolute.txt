@@ -1,0 +1,9 @@
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DomainEntity\bin\Debug\netstandard2.0\PromotionEngine.DomainEntity.deps.json
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DomainEntity\bin\Debug\netstandard2.0\PromotionEngine.DomainEntity.dll
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DomainEntity\bin\Debug\netstandard2.0\PromotionEngine.DomainEntity.pdb
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DomainEntity\obj\Debug\netstandard2.0\PromotionEngine.DomainEntity.csprojAssemblyReference.cache
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DomainEntity\obj\Debug\netstandard2.0\PromotionEngine.DomainEntity.AssemblyInfoInputs.cache
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DomainEntity\obj\Debug\netstandard2.0\PromotionEngine.DomainEntity.AssemblyInfo.cs
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DomainEntity\obj\Debug\netstandard2.0\PromotionEngine.DomainEntity.csproj.CoreCompileInputs.cache
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DomainEntity\obj\Debug\netstandard2.0\PromotionEngine.DomainEntity.dll
+E:\Personal\Development\CodeTest\PromotionEngine.ConsoleApp\PromotionEngine.DomainEntity\obj\Debug\netstandard2.0\PromotionEngine.DomainEntity.pdb
